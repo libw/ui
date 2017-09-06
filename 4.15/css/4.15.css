@@ -1,0 +1,298 @@
+body{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+a{display: block;text-decoration: none;}
+*{box-sizing: border-box;}
+/*头部*/
+header{width: 100%;height: 790px;
+    background-color: #2c2f31;
+position: relative;}
+/*#back-img{width: 1600px;height: 790px;*/
+/*position: absolute;top:0;left: 0;*/
+/*opacity: 0.22;}*/
+.header-top{width: 100%;top:0;height: 790px;
+    background-color: #2c2f31;
+background-image: url("../image/1.png")}
+.header1{width: 1200px;height: 128px;margin: 0 auto;}
+.header-top .logo{width: 247px;height: 128px;
+    float: left;background-image:url("../image/2.png");}
+.nav1{width: 1200px;height: 70px;
+    background-color:rgba(49,93,124,0.8); }
+.nav11{width: 670px;height: 40px;
+    padding-top: 15px
+;float: left; }
+.nav11 a{height: 40px;
+    display: block;float: left;padding: 0 34px;
+    border-right: 1px solid #000;font-size: 24px;
+    line-height: 40px;color: #fff;}
+.nav11 a:last-child{border-right: 0;}
+.nav11 a:hover{
+    background:url("../image/3.png") no-repeat;
+    background-position: center;
+    transition: all 0.5px;}
+.nav11 a:nth-child(1){
+    background:url("../image/3.png") no-repeat;
+    background-position: center;
+    transition: all 0.5px;
+}
+.search{width: 140px;height: 30px;float: left;margin-top: 21px;}
+#ss111{width: 108px;height: 30px;font-size: 16px;
+    display: block;float: left;
+    border-radius:30px;border: 0;padding: 0 10px;}
+@font-face {
+    font-family: 'iconfont';  /* project id 226972 */
+    src: url('//at.alicdn.com/t/font_bfhuk45y16gh9f6r.eot');
+    src: url('//at.alicdn.com/t/font_bfhuk45y16gh9f6r.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_bfhuk45y16gh9f6r.woff') format('woff'),
+    url('//at.alicdn.com/t/font_bfhuk45y16gh9f6r.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_bfhuk45y16gh9f6r.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:20px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;}
+.s1{float: left;width: 20px;margin-left: 5px;
+    height: 30px;cursor: pointer;line-height: 30px;}
+.login{float: right;margin-top: 20px;}
+.login a{color: #fff;float: left;height: 20px;width: 38px;border-right: 1px solid #fff;
+    padding: 0 6px;font-size: 12px;line-height: 20px;
+}
+.login a:last-child{border-right: 0;}
+.crumb{width: 1200px;margin: 0 auto;  }
+.crumb a{font-size: 18px;color: #fff;
+    float: left;}
+/*banner*/
+.banner{
+    width: 1200px;height: 525px;
+    margin: 0 auto;margin-top: 50px;
+    position: relative;;
+}
+.banner a:nth-child(1){
+    position: absolute;left: 91px;
+    z-index: 21;
+}
+.banner a:nth-child(2){
+    position: absolute;left: 251px;
+    top:18px;z-index: 20;
+}
+.banner a:nth-child(3){
+    position: absolute;left: 407px;
+    top:47px;z-index: 19;
+}
+.banner a:nth-child(4){
+    position: absolute;left: 557px;
+    top:83px;z-index: 18;
+}
+.show124{
+    margin:0 auto;height: 10px;width:120px;
+    margin-top: 50px;float: right;
+    margin-right: 300px;}
+#circle11{
+    background-color: #fff;
+}
+.circle1{
+    width: 10px;height: 10px;
+    border-radius:50px;background-color:#363e4d;
+    margin: 0 10px;float: left;
+}
+.circle1:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+#banner-sign{
+    width: 200px;height: 24px;
+line-height: 24px;color: #fff;
+    margin-top: 20px;float: left;
+    margin-left: 250px;
+}
+/*内容*/
+section{
+    width: 100%;height: 1100px;
+background-color:#2c2f31;
+}
+.section1{
+    width: 1200px;height: 1100px;
+    margin: 0 auto;
+
+}
+.shop-content{
+    width: 750px;height: 1050px;
+margin-left: 90px;float: left;
+}
+.shop-nav{
+    height: 28px;
+}
+.shop-nav a{
+    width: 56px;height: 28px;
+    float: left;font-size: 18px;
+    /*background-color: #141519;*/
+    color:#fff;line-height: 28px;
+    text-align: center;
+}
+.shop-nav a:hover{
+    background-color:#141519;
+color: #6fafe3;
+}
+#shop-nav1{
+    background-color:#141519;
+    color: #6fafe3;
+}
+.nav-line{
+    height: 5px;width: 750px;
+    background:linear-gradient(to left,#2c2f31 0,#141519 40%)
+}
+.shop-content>a{
+    width: 750px;height: 138px;
+   padding:26px;  padding-right: 0;
+}
+#shop-content1{margin-top: 10px;}
+.shop-content>a:hover{
+    background:linear-gradient(to left,#2c2f31 0,#141519 60%);
+}
+.shop-content11{
+    height: 87px;}
+.shop-content11 img{
+    float: left;}
+.shop-content-word{
+    width: 190px;height: 78px;
+    float: left;margin-top:5px;
+    margin-left: 42px;
+}
+.content-word-top{
+    height: 14px;line-height: 14px;
+    color: #fff;
+}
+.content-word-center{
+margin-top: 14px;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 229665 */
+    src: url('http://at.alicdn.com/t/font_d7cvzbwphgd2huxr.eot');
+    src: url('http://at.alicdn.com/t/font_d7cvzbwphgd2huxr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_d7cvzbwphgd2huxr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_d7cvzbwphgd2huxr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_d7cvzbwphgd2huxr.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:18px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+color: #5f6670;}
+.content-word-bottom {
+    margin-top: 14px;color: #5f6670;
+    font-size: 14px;
+}
+.shop-content-sign{
+width: 94px;height: 24px;
+    line-height: 24px;color: #fff;
+    float: right;margin-top: 28px;
+}
+.shop-content--sign{
+    width: 750px;height: 14px;
+    line-height: 14px;margin-top: 5px;
+    margin-left: 26px;color: #fff;
+    font-size: 14px;
+}
+.side-nav{
+    width: 291px;height: 396px;
+    float: right;
+}
+.select{
+    width: 291px;height: 271px;
+    border: 3px solid #3c4951;
+    margin-top: 50px;
+}
+.select-title{
+    width: 287px;height: 19px;
+    line-height: 17px;color: #000;
+    background-color: #3c4951;
+    padding-left: 15px;font-size: 14px;
+}
+.select-content{
+    padding: 6px;margin-left: 10px;
+}
+.select-content a{
+    width: 260px;
+    height: 30px;color: #fff;
+    font-size: 18px;line-height: 29px;
+    margin-bottom: 4px;
+}
+.select-content a:hover{
+    background:linear-gradient(to left,#2c2f31 0,#616365 40%,#616365 60%,#2c2f31 100%)
+}
+.search1{
+    width: 291px;height: 59px;
+    border: 3px solid #3c4951;
+    margin-top: 20px;
+}
+.section1-content{
+    width: 1200px;height: 1050px;
+}
+#input1{
+    width:285px;height:34px;
+    display:block;border:none;
+    font-size:18px; padding-left:15px;
+    color:#000;background-color: #2c2f31;
+}
+.go-page{
+    width: 350px;height: 24px;
+    margin:0 auto;float: right;
+}
+.go-page button:nth-child(1){
+    width: 61px;height: 24px;
+    background-color: #746ee6;
+    color: #715e5e;font-size: 12px;
+    border: 0;float: left;
+    cursor: pointer;
+}
+.go-page a{
+    width: 37px;height: 24px;
+text-align: center;line-height: 24px;
+    font-size: 12px;color: #fff;
+float: left;
+}
+.go-page a:hover{
+    color: #000;
+}
+.go-page a:nth-child(2){
+    color: #000;
+}
+.go-page button:last-child{
+    width: 61px;height: 24px;
+    background-color: #746ee6;
+    color: #fff;font-size: 12px;
+    border: 0;float: right;
+    cursor: pointer;
+}
+.go-page button:hover{
+    color: #715e5e;
+}
+
+
+/*底板*/
+footer{width: 100%;height: 508px;background-color: #141519;}
+.footer1{width: 1200px;height:508px;
+    margin: 0 auto;padding-top: 70px;}
+footer .logo1{width: 247px;height: 128px;
+    background-image:url("../image/2.png");margin: 0 auto;margin-bottom: 50px;}
+.footer-word1{width: 1200px;height: 32px;
+    font-size: 18px;color: #5aa8d6;line-height: 32px;
+    text-align: center;}
+.footer-nav1{height: 18px;width:330px;
+    margin: 0 auto;margin-top: 80px;}
+.footer-nav1 a{width: 110px;height: 18px;
+    border-right: 1px solid #fff;color: #fff;
+    float: left;text-align: center;line-height: 18px;}
+.footer-nav a:last-child{border-right: 0;}
+.footer-nav2{height: 18px;width:770px;
+    margin: 0 auto;margin-top: 25px;}
+.footer-nav2 a{width: 110px;height: 18px;
+    border-right: 1px solid #fff;color: #fff;
+    float: left;text-align: center;line-height: 18px;}
+.footer-nav2 a:last-child{border-right: 0;}
